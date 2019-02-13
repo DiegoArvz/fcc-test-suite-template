@@ -10,3 +10,23 @@
     width: 40px;
     margin: 0 auto;
 }
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    width: 100%;
+
+}
+
+.products iframe{
+    display: inline;
+    margin: 0 auto;
+}
