@@ -1,25 +1,33 @@
-#header{
+.flex-container{
+    display: flex;
+}
 
+#header{
     width: 100%;
     background-color: gray;
     max-height: 50px; 
-
 }
 
 #header img{
     width: 40px;
     margin: 0 auto;
+    display: inline;
 }
 
-#nav-bar {
-    display: flex;
-    flex-direction: row;
+#nav-bar{
+    position: fixed;
 }
 
-#nav-bar ul{
-    display: flex;
-    flex-direction: column;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  
+  li {
+    display: inline;
+  }
 
 .products{
     width: 100%;
@@ -30,3 +38,10 @@
     display: inline;
     margin: 0 auto;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+     
+    }
+  }

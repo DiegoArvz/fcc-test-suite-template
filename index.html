@@ -10,11 +10,14 @@
 </head>
 
 <body>
+ 
+  <div class="flex-container">
 
-  <div class="container">
+  </div>
+
     <header id="header">
-      <img src="img/logo.png" alt="company logo"/>
-      <nav id="nav-bar">
+      <nav id="nav-bar" class="flex-container"> 
+        <img src="img/logo.png" alt="company logo"/>
         <ul> 
           <li><a href="#products" class="nav-link">Products</a></li>
           <li><a href="#about" class="nav-link">About</a></li>
@@ -22,32 +25,16 @@
         </ul>
       </nav>
     </header>
-  <div class="container">
-
-  </div>
-
-  <section>
-      <h2>Subscribe to our newsletter</h2>
-    <form id="form">
-      <input id="email"></input>
-    </form>
-  </section>
-    <div class="row">
-      <div class="col">
-        <div id="products">
-  
-          <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"  height="200" width="300" frameborder="0" ></iframe>
-      
-        </div>
-      </div>
+    <section>
+        <h2>Subscribe to our newsletter</h2>
+      <form id="form">
+        <input id="email" placeholder="email@mail.com" type="email" required/>
+      </form>
+    </section>
+    <div id="products">
+      <iframe src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"  height="200" width="300" frameborder="0" ></iframe>
     </div>
-
-
-  </div>
-
   
-
-
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
